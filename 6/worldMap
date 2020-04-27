@@ -1,0 +1,24 @@
+<!DOCTYPE html>  <!--  worldMap.html -->             
+<html><head><meta   charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>HTML5 세계지도_김동혁</title>
+</head>
+</html>
+<body>
+<b>그림을 클릭하세요</b><br>
+<img src="../images/세계지도.png" border=0 usemap="#area">
+<map name="area">
+   <area alt='중국' shape="rect" target="_blank" coords='897,210,958,237' href="china.html">
+   <area alt='대한민국' shape="rect" coords='1007,205,1030,232' href="seoul.html">
+   <area alt='러시아' target="_blank" coords='835,105,1280,640' href="russia.html">
+   <area alt='호주'  target="_blank" coords='1020,470,1100,505' href="australia.html">
+   <area alt='미국'  target="_blank" coords='110,190,190,210' href="usa.html">
+   <area alt='캐나다'  target="_blank" coords='125,100,220,140' href="canada.html">
+   <area alt='일본' target="_blank" coords='1036,237,1085,235' href="japan.html">
+   <area alt='브라질'  target="_blank" coords='290,383,375,435' href="brazil.html">
+   <area alt='멕시코'  target="_blank" coords='75,250,172,288' href="mexico.html">
+   <area alt='그린란드'  target="_blank" coords='390,43,460,72' href="greenland.html">
+   <area shape="default"  noref>
+</map> 
+</body>
+</html>
